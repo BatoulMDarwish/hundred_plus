@@ -5,6 +5,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:handred_plus/core/common/config/theme/colors.dart';
 import 'package:handred_plus/feature/splash&onboarding/presentation/pages/controller/cubit/onboarding_bloc.dart';
 
+import '../../../../../core/common/config/theme/style.dart';
 import '../../data/datasource/onboarding_datasource_static.dart';
 import 'dotcontroller.dart';
 
@@ -32,9 +33,7 @@ class CustomSliderOnBoarding extends StatelessWidget {
             Text(
               OnBoardingList[i].body!,
               textAlign:TextAlign.center ,
-              style: Theme.of(context).textTheme.headlineSmall!.copyWith(
-                color: AppColors.textColor1
-              ),
+              style: AppStyle.textTheme.bodyMedium
             ),
           ],
         )

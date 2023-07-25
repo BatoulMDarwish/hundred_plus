@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
+import 'package:handred_plus/core/common/config/theme/style.dart';
 import 'package:handred_plus/core/constant/images/assets.dart';
 import 'package:handred_plus/feature/splash&onboarding/presentation/pages/screen/on_boarding_screen.dart';
 
@@ -54,11 +55,11 @@ class _SplashScreenState extends State<SplashScreen> {
                const Spacer(),
                Text(
                  AppString.hundredPlus,
-                 style: Theme.of(context).textTheme.displayLarge,
+                 style:AppStyle.textTheme.displayMedium,
                ),
                Text(
                  AppString.delivery,
-                 style: Theme.of(context).textTheme.displayLarge,
+                 style: AppStyle.textTheme.displayMedium,
                ),
                79.verticalSpace
              ],

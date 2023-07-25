@@ -11,5 +11,6 @@ class AppString {
   static const String welcome='welcome';
   static const String next='التالي';
   static const String textWelcome='اكتشف أفضل الأطعمة من مطعمنا \nتوصيل سريع إلى باب منزلك';
-
+  static const String createAccount='إنشاء الحساب';
+  static const String SignIn='تسجيل الدخول';
 }

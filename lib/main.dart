@@ -24,7 +24,8 @@ class MyApp extends StatelessWidget {
         builder: (context, child) => Directionality(child: child!,textDirection: TextDirection.rtl,),
         debugShowCheckedModeBanner: false,
 
-        theme: AppTheme.lightTheme,
+        theme:AppTheme.lightTheme,
+
        routerConfig: AppRouter().router,
 
          //home: OnBoardingScreen(),
