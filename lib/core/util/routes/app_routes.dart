@@ -4,9 +4,10 @@ import 'package:go_router/go_router.dart';
 import 'package:handred_plus/core/constant/strings/app_string.dart';
 import 'package:handred_plus/feature/auth/presentation/pages/create_account.dart';
 import 'package:handred_plus/feature/auth/presentation/pages/welcome.dart';
-import 'package:handred_plus/feature/splash&onboarding/presentation/pages/screen/on_boarding_screen.dart';
 
-import '../../../feature/splash&onboarding/presentation/pages/screen/splash_screen.dart';
+import '../../../feature/splash&onboarding/presentation/screen/on_boarding_screen.dart';
+import '../../../feature/splash&onboarding/presentation/screen/splash_screen.dart';
+
 
 
 

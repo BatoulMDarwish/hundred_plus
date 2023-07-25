@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:handred_plus/feature/splash&onboarding/presentation/pages/screen/on_boarding_screen.dart';
-import 'package:handred_plus/feature/splash&onboarding/presentation/pages/screen/splash_screen.dart';
+
 
 import 'core/common/config/theme/theme.dart';
 import 'core/util/routes/app_routes.dart';
